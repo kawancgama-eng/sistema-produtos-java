@@ -9,11 +9,19 @@ Trabalho de Banco de Dados. CRUD de produtos (cadastrar, listar, atualizar e exc
 3. Em `ConexaoBD.java`, troque `sua_senha_aqui` pela senha do seu MySQL.
 4. Compile e execute (troque a versão do `.jar` se necessário):
 
-    javac -cp ".;mysql-connector-j-26.10.0.jar" *.java
+```
+javac -cp ".;mysql-connector-j-26.10.0.jar" *.java
+```
 
-    java -cp ".;mysql-connector-j-26.10.0.jar" Main            (console)
-    java -cp ".;mysql-connector-j-26.10.0.jar" TelaProdutos    (janela)
-    java -cp ".;mysql-connector-j-26.10.0.jar" ServidorWeb     (navegador: http://localhost:8080)
+Depois, escolha uma das três interfaces:
+
+```
+java -cp ".;mysql-connector-j-26.10.0.jar" Main
+java -cp ".;mysql-connector-j-26.10.0.jar" TelaProdutos
+java -cp ".;mysql-connector-j-26.10.0.jar" ServidorWeb
+```
+
+`Main` abre o menu no console, `TelaProdutos` abre uma janela e `ServidorWeb` abre a página em http://localhost:8080.
 
 ## Arquivos
 
